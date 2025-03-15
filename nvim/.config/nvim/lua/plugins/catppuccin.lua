@@ -52,6 +52,7 @@ return {
                         },
                         ["@variable.parameter"] = {
                             fg = colors.red,
+                            style = {"italic"}
                         },
                         ["@variable.member"] = {
                             fg = colors.red,
@@ -59,8 +60,14 @@ return {
                         ["@keyword.export"] = {
                             fg = colors.mauve,
                         },
+                        ["@function.builtin"] = {
+                            fg = colors.lavender,
+                        },
                         ["@lsp.type.interface"] = {
                             fg = colors.yellow,
+                        },
+                        ["@lsp.type.parameter"] = {
+                            style = {"italic"}
                         },
                         ["@tag.builtin.tsx"] = {
                             fg = colors.red,
